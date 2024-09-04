@@ -105,9 +105,10 @@ Group creation and management:
 
 - Distribution option: Upon goal achievement, the platform facilitates the equitable distribution of assets based on the predefined sharing model.
 
-### Contract deployment on Fuse
+### Contract deployment on Base
 
-- 0x38b0917178b0C07bEAAf9c6255Ad97C1c9D984EE
+- USDCToken deployed to 0x705fc49E893aCC60aed2681480710b13B1624b5B
+  Thrift  deployed to 0x85C787CAf3e2E821ea077C1a3b6621B1CeB4269A
 
 ### Demo
 
