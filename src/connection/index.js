@@ -1,13 +1,13 @@
 import { createWeb3Modal, defaultConfig } from '@web3modal/ethers/react'
 
-export const SUPPORTED_CHAIN = 123;
+export const SUPPORTED_CHAIN = 84532;
 
 
-const fuseSpark = {
-  chainId: 123 ,
-  name: 'Fuse',
+const baseSepolia = {
+  chainId: 84532,
+  name: 'Base',
   currency: 'ETH',
-  explorerUrl: 'https://etherscan.io',
+  explorerUrl: 'https://sepolia.basescan.org/',
   rpcUrl: import.meta.env.VITE_INFURA_RPC
 }
 
@@ -20,7 +20,7 @@ const metadata = {
 
 export const configWeb3Modal = () => createWeb3Modal({
   ethersConfig: defaultConfig({ metadata }),
-  chains: [fuseSpark],
+  chains: [baseSepolia],
   projectId: import.meta.env.VITE_PROJECT_ID,
   enableAnalytics: false,
   themeVariables: {
